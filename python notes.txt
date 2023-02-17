@@ -1,0 +1,49 @@
+ 
+
+|python notes|
+ ============
+
+
+
+
+print()
+
+my turn vs my_turn
+
+#variables cant have space!
+
+------------------------------------
+msg+msg+msg
+vs
+msg,msg,msg
+vs
+msg*3
+------------------------------------
+
+msg="welcome to python 101: strings"
+msg=welcome to python 101: strings
+
+--# print("msg") vs print(msg)
+
+print(len(msg))
+print(msg.upper())
+print(msg.lower())
+print(msg.titel())
+print(msg.count('python'))
+
+--# slice
+print(msg[5])
+print(msg[3:])
+print(msg[:7])
+print(msg[7:])
+print(msg[-1])
+print(msg[::-1])
+
+
+
+--#
+print(msg.replace('Python','c'))
+print(msg.find('python')
+print('Python' in msg)
+
+
